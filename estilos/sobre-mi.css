@@ -34,7 +34,6 @@ header{
     color: #2c85eb;
     border-bottom: 1px solid currentcolor;
  }
- 
 
 #cajita {
     font-family: 'Indie Flower', cursive;
@@ -50,6 +49,7 @@ header{
     background-color: #1b2735;
     margin-left: 5%;
     width: 90%;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 

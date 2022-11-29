@@ -14,6 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
+    padding-top: 25px;
 }
 
 .barra-navegacion li {
@@ -39,7 +40,9 @@ header{
     width: 90%;
     border: 1px solid white;
     margin-left: 5%;
-    padding-bottom: 10%;
+    margin-top: 20px;
+    padding-bottom: 5%;
+
 }
 
  h1{
@@ -47,6 +50,7 @@ header{
     font-size: 0px;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    padding-top: 20px;
  }
 
  p{
