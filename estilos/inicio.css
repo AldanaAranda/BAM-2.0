@@ -617,3 +617,19 @@ h1{
         transform: translateY(-2000px);
     }
 }
+
+@media (max-width: 767px) {
+    h1{
+        font-size: 50px;
+    }
+    .rino{
+        margin:auto;
+		display:block;
+    }
+    .barra-navegacion a{
+        display: flex; 
+        justify-content: space-between;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+}
