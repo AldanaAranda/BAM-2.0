@@ -624,6 +624,7 @@ h1{
     }
     .rino{
         margin:auto;
+        padding-top: 80px;
 		display:block;
     }
     .barra-navegacion a{

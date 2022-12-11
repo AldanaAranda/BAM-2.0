@@ -7,14 +7,14 @@ html{
 header{
     font-family: 'Rock Salt', cursive;
     background-color: #090a0f;
+    height: 500px;
 }
 
 .barra-navegacion ul {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-right: 15px;
-    padding-top: 25px;
+    padding: 25px 5px 0px 5px;
 }
 
 .barra-navegacion li {
@@ -29,13 +29,16 @@ header{
     border-bottom: 1px solid transparent;
     transition: .5s ease;
 }
+.barra-navegacion a.logo{
+    width: 50%;
+}
 
 .barra-navegacion a:hover {
     color: #2c85eb;
     border-bottom: 1px solid currentcolor;
  }
 
-.tarjeta{
+.cont{
     background-color: #1b2735;
     width: 90%;
     border: 1px solid white;
@@ -59,9 +62,7 @@ header{
 
  .card{
     margin-top: 20%;
-
     text-align: center;
-    font-family: 'Indie Flower', cursive;
     height: 280px;
     margin-left: 20px;
  }
@@ -464,7 +465,7 @@ header{
     582px 248px #fff, 1308px 953px #fff, 628px 657px #fff, 897px 1535px #fff,
     270px 931px #fff, 791px 467px #fff, 1336px 1732px #fff, 1013px 1653px #fff,
     1911px 956px #fff, 587px 816px #fff, 83px 456px #fff, 930px 1478px #fff,
-    1587px 1694px #fff, 614px 1200px #fff, 302px 1782px #fff, 1711px 1432px #fff,
+    1587px 1694px #fff, 614px 100% #fff, 302px 1782px #fff, 1711px 1432px #fff,
     443px 904px #fff, 1666px 714px #fff, 1588px 1167px #fff, 273px 1075px #fff,
     1679px 461px #fff, 721px 664px #fff, 1202px 10px #fff, 166px 1126px #fff,
     331px 1628px #fff, 430px 1565px #fff, 1585px 509px #fff, 640px 38px #fff,
@@ -631,4 +632,39 @@ header{
     to {
         transform: translateY(-2000px);
     }
+}
+
+@media (max-width: 767px) {
+    .barra-navegacion a{
+        display: flex; 
+        justify-content: space-between;
+        margin-left: 5px;
+        font-size: 80%;
+    }
+    .barra-navegacion a.logo{
+        width: 50%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .card{
+        height: 100%;
+        max-width: 80%;
+    }
+    .card-title{
+        font-size: 12px;
+    }
+    .card-img-top{
+        height: 80%;
+    }
+    .col{
+        height: 200px;
+    }
+    .cont{
+        overflow: scroll;
+    }
+    .contenedor{
+        height: 50px;
+    }
+    
 }
