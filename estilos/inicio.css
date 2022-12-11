@@ -630,7 +630,9 @@ h1{
     .barra-navegacion a{
         display: flex; 
         justify-content: space-between;
-        margin-left: 5px;
-        font-size: 15px;
+        font-size: 80%;
+    }
+    .barra-navegacion ul{
+        padding: 0%;
     }
 }
