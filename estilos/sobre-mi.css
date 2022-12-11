@@ -36,12 +36,17 @@ header{
  }
 
 #cajita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p{
     font-family: 'Indie Flower', cursive;
     color: white;
     font-size: 25px;
     text-align: left;
-    width: 55%;
     margin-left: 5%;
+    width: 80%;
 }
 
 .bio{
@@ -58,12 +63,11 @@ h1{
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 20px;
 }
 
 #imagen {
-    margin-left: 57%;
-    margin-top: -25%;
+width: 60%;
+
 }
 
 
@@ -630,5 +634,40 @@ h1{
     }
     to {
         transform: translateY(-2000px);
+    }
+}
+
+@media (max-width: 767px) {
+    .barra-navegacion a{
+        display: flex; 
+        justify-content: space-between;
+        font-size: 75%;
+    }
+    .barra-navegacion a.logo{
+        width: 40%;
+    }
+    .barra-navegacion ul{
+        padding: 0%;
+    }
+    #cajita{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        font-size: 100%;
+        width: 90%;
+        text-align: center;
+    }
+    #imagen img{
+        margin-left: 35%;
+    }
+    h1{
+        padding: 0;
+        font-size: 30px;
+    }
+    .bio{
+        padding: 0;
     }
 }
