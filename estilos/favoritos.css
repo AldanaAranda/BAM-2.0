@@ -29,8 +29,9 @@ header{
     border-bottom: 1px solid transparent;
     transition: .5s ease;
 }
+
 .barra-navegacion a.logo{
-    width: 50%;
+    margin-left: 30%;
 }
 
 .barra-navegacion a:hover {
@@ -50,7 +51,7 @@ header{
 
  h1{
     color: white;
-    font-size: 0px;
+    font-size: 10px;
     font-family: 'Rock Salt', cursive;
     text-align: center;
     padding-top: 20px;
@@ -635,17 +636,27 @@ header{
 }
 
 @media (max-width: 767px) {
+    html{
+        font-size: 10px;
+    }
     .barra-navegacion a{
         display: flex; 
         justify-content: space-between;
-        margin-left: 5px;
-        font-size: 80%;
+        font-size: 90%;
     }
     .barra-navegacion a.logo{
-        width: 50%;
+        width: 250%;
+        margin: 0;
+    }
+    .barra-navegacion ul{
+        padding: 0%;
+        margin-top: 10px;
+    }
+    .barra-navegacion li.marca{
+        width: 50px;
     }
     h1{
-        font-size: 50px;
+        font-size: 10px;
     }
     .card{
         height: 100%;
@@ -660,8 +671,9 @@ header{
     .col{
         height: 200px;
     }
-    .cont{
-        overflow: scroll;
+    .btn{
+        height: 30%;
+        font-size: 1rem;
     }
     .contenedor{
         height: 50px;

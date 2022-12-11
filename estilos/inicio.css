@@ -638,7 +638,7 @@ h1{
     .barra-navegacion a{
         display: flex; 
         justify-content: space-between;
-        font-size: 50%;
+        font-size: 60%;
     }
     .barra-navegacion a.logo{
         width: 300%;
