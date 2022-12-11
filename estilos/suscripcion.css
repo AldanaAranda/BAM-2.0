@@ -30,6 +30,10 @@ header{
     transition: .5s ease;
 }
 
+.barra-navegacion a.logo{
+    margin-left: 30%;
+}
+
 .barra-navegacion a:hover {
     color: #2c85eb;
     border-bottom: 1px solid currentcolor;
@@ -639,5 +643,40 @@ input{
     }
     to {
         transform: translateY(-2000px);
+    }
+}
+
+@media (max-width: 767px) {
+    .barra-navegacion a{
+        display: flex; 
+        justify-content: space-between;
+        font-size: 50%;
+    }
+    .barra-navegacion a.logo{
+        width: 300%;
+        margin: 0;
+    }
+    .barra-navegacion ul{
+        padding: 0%;
+    }
+    .barra-navegacion li.marca{
+        width: 50px;
+    }
+    form{
+        width: 70%;
+        margin-top: 15%;
+    }
+    h2{
+        font-size: 20px;
+        line-height: normal;
+        margin: 0;
+    }
+    input{
+        font-size: 10px;
+        margin: 0;
+    }
+    #button{
+        height: 25px;
+        padding: 5px;
     }
 }
