@@ -30,6 +30,10 @@ header{
     transition: .5s ease;
 }
 
+.barra-navegacion a.logo{
+    margin-left: 30%;
+}
+
 .barra-navegacion a:hover {
     color: #2c85eb;
     border-bottom: 1px solid currentcolor;
@@ -641,13 +645,19 @@ width: 60%;
     .barra-navegacion a{
         display: flex; 
         justify-content: space-between;
-        font-size: 75%;
+        font-size: 55%;
+        margin: 5px;
     }
     .barra-navegacion a.logo{
-        width: 40%;
+        width: 250%;
+        margin: 0;
     }
     .barra-navegacion ul{
         padding: 0%;
+        margin-top: 5px;
+    }
+    .barra-navegacion li.marca{
+        width: 50px;
     }
     #cajita{
         display: flex;
@@ -669,5 +679,8 @@ width: 60%;
     }
     .bio{
         padding: 0;
+    }
+    h1{
+        font-size: 150%;
     }
 }
