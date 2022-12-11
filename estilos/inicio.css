@@ -28,6 +28,10 @@ header{
     transition: .5s ease;
 }
 
+.barra-navegacion a.logo{
+    margin-left: 30%;
+}
+
 .barra-navegacion a:hover {
     color: #2c85eb;
     border-bottom: 1px solid currentcolor;
@@ -48,8 +52,10 @@ h1{
 }
 
 .rino{
-    margin-left: 43%;
-    margin-top: 5%;
+    margin: auto;
+    display: block;
+    padding-top: 80px;
+    width: 20%;
 }
 
 #stars {
@@ -620,19 +626,28 @@ h1{
 
 @media (max-width: 767px) {
     h1{
-        font-size: 50px;
+        font-size: 100%;
+        padding-top: 15px;
     }
     .rino{
         margin:auto;
-        padding-top: 80px;
+        padding-top: 5%;
 		display:block;
+        width: 30%;
     }
     .barra-navegacion a{
         display: flex; 
         justify-content: space-between;
-        font-size: 80%;
+        font-size: 50%;
+    }
+    .barra-navegacion a.logo{
+        width: 300%;
+        margin: 0;
     }
     .barra-navegacion ul{
         padding: 0%;
+    }
+    .barra-navegacion li.marca{
+        width: 50px;
     }
 }
